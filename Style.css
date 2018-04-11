@@ -5,12 +5,12 @@ header {
 }
 .header {
     position: absolute;
-    top: 10%;
+    top: 5%;
     width: 100%;
-    height: 50%;
+    height: 30%;
     text-align: center
 }
-.lineleft {
+.line_left {
     border-top: 5px solid white;
     height: 15%;
     width: 30%;
@@ -18,7 +18,7 @@ header {
     left: 11%;
     top: 12%;
 }
-.lineright {
+.line_right {
     border-top: 5px solid white;
     height: 15%;
     width: 31%;
@@ -61,40 +61,46 @@ li a:hover {
     }
     
 }
-.container{
+.contenedor-slider {
     width: 100%;
-    position: relative;
     overflow: hidden;
 }
-.slider{
+.slider {
+    display: flex;
     width: 300%;
-    height: 800px;
-    position: relative;  
+    height: 900px;
 }
-.slide1{
-    width: 33.33%;
-    height: 800px;
-    position: relative;
-    float: left;
+.slider_section {
+    width: cal(100% / 3);
+    height: 900px;
     background-size: cover;
     z-index: -1;
-    background-image: url(http://demo.qodeinteractive.com/bridge56/wp-content/uploads/2014/12/slide1.jpg)
 }
-.slide2{
-    width: 33.33%;
-    height: 800px;
-    position: relative;
-    float: left;
-    background-size: cover;
-    z-index: -1;
-    background-image: url(http://demo.qodeinteractive.com/bridge56/wp-content/uploads/2014/12/baner2.jpg)
+.slider_img {
+    width: 100%;
+    height: 100%;
 }
-.slide3{
-    width: 33.33%;
-    height: 800px;
-    position: relative;
-    float: left;
-    background-size: cover;
-    z-index: -1;
-    background-image: url(http://demo.qodeinteractive.com/bridge56/wp-content/uploads/2014/12/baner31.jpg)
+.button_prev, .button_next {
+    width:55px;
+    height:55px;
+    position: absolute;
+    top: 45%;
+    font-size: 30px;
+    line-height: 48px;
+    text-align: center;
+    color: white;
+    border-radius: 100%; 
+    border: 2px solid white;
+    font-family: monospace;
+    cursor: pointer;
+    opacity: 0;
+}
+.button_prev:hover, .button_next:hover {
+    opacity: 1;
+}
+.button_prev {
+    left: 10px;
+}
+.button_next {
+    right: 10px;
 }

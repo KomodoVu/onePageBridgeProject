@@ -1,17 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" >
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
+    <link rel="stylesheet" href="css/Style.css">
     <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet'>
-    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
+
 <body>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <div class="container">
+    <div id="contenedor-slider" class="contenedor-slider">
         <div class="header">
             <header>Bridge</header>
-            <div class="lineleft">
+            <div class="line_left">
                 <div class="navigation_bar_left">
                     <ul>
                         <li><a>HOME</a></li>
@@ -20,7 +20,7 @@
                     </ul>
                 </div> 
             </div>
-            <div class="lineright">
+            <div class="line_right">
                 <div class="navigation_bar_right">
                     <ul>
                         <li><a>GALERRY</a></li>
@@ -30,11 +30,22 @@
                 </div>
             </div>
         </div>
-        <div class="slider">
-            <div class="slide1"></div>
-            <div class="slide2"></div>
-            <div class="slide3"></div>
+        <div id="slider" class="slider">
+            <div class="slider_section">
+                <img src="http://demo.qodeinteractive.com/bridge56/wp-content/uploads/2014/12/slide1.jpg" class="slider_img">
+            </div>
+            <div class="slider_section">          
+                <img src="http://demo.qodeinteractive.com/bridge56/wp-content/uploads/2014/12/baner2.jpg" class="slider_img">
+            </div>
+            <div class="slider_section">
+                <img src="http://demo.qodeinteractive.com/bridge56/wp-content/uploads/2014/12/baner31.jpg" class="slider_img">
+           </div>
         </div>
+        <div class="button_prev">&#60;</div>
+        <div class="button_next">&#62;</div>
     </div>
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
+    <script  src="js/Sliding%20Animation.js"></script>
 </body>
+
 </html>
