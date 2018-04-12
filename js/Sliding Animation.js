@@ -16,13 +16,6 @@ function jumpIn() {
 	});
 }
 
-function jumpInNoCallBack() {
-    popUp.animate({
-        top: '90%',
-        opacity: '1'
-    }, 700);
-}
-
 function fadeOut() {
     popUp.animate({
         opacity: '0'
