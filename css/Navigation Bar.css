@@ -1,38 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 header {
 	font-family: 'Pacifico';
-	font-size: 300%;
+	font-size: 3.5vw;
     color: white;
+	cursor: pointer;
 }
 .header {
     position: absolute;
-    top: 5%;
-    width: 100%;
-    height: 30%;
-    text-align: center
+    top: 2.5vw;
+    width: 100vw;
+    height: 15vh;
+    text-align: center;
+	z-index: 1;
 }
 .line_left {
     border-top: 3px solid white;
-    height: 15%;
-    width: 30%;
+    height: 8vh;
+    width: 30vw;
     position: absolute;
-    left: 11%;
-    top: 20%;
+    left: 12vw;
+    top: 6vh;
 }
 .line_right {
     border-top: 3px solid white;
-    height: 15%;
-    width: 31%;
+    height: 8vh;
+    width: 30vw;
     position: absolute;
-    left: 59%;
-    top: 20%;
+    right: 11vw;
+    top: 6vh;
 }
 .navigation_bar_left{
     position: absolute;
-    left: 11%;
+    left: 4vw;
 }
 .navigation_bar_right{
     position: absolute;
-    right: 12%;
+    left: 3vw;
 }
 ul {
     list-style-type: none;
@@ -47,15 +53,12 @@ li {
 li a {
     display: list-item;
     color: white;
-    text-align: center;
-    padding: 20px 25px ;
+    padding: 2vh 2vw ;
     text-decoration: none;
+	cursor: pointer;
+	font-size: 1vw;
 }
 
 li a:hover {
     opacity: 0.5;
-}
-@media only screen and (max-width:1500px) {
-    li a {
-        padding: 20px 10px ;
 }

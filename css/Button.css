@@ -1,24 +1,24 @@
 .button_prev, .button_next {
-    width:55px;
-    height:55px;
+    width: 3.5vw;
+    height:3.5vw;
     position: absolute;
     top: 45%;
-    font-size: 30px;
-    line-height: 48px;
+    font-size: 2vw;
+    line-height: 3vw;
     text-align: center;
     color: white;
     border-radius: 100%; 
     border: 2px solid white;
     font-family: monospace;
     cursor: pointer;
-    opacity: 0;
-}
-.button_prev:hover, .button_next:hover {
     opacity: 1;
 }
+.button_prev:hover, .button_next:hover {
+    opacity: 0.5;
+}
 .button_prev {
-    left: 1%;
+    left: 1vw;
 }
 .button_next {
-    right: 1%;
+    right: 1vw;
 }
