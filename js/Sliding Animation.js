@@ -1,29 +1,39 @@
 /*jslint browser: true*/
-/*global $, setTimeout, setInterval, clearInterval, interval*/
+/*global $, setTimeout, setInterval, clearInterval*/
 
+var disabledButtonNext = true;
+var disabledButtonPrev = true;
+var interval;
 var slider = $('#slider');
 var buttonNext = $('.button_next');
 var buttonPrev = $('.button_prev');
 var popUp = $('.pop_up_big');
 
+setTimeout(
+  function() {
+        jumpIn();
+  }, 1500);
+$('#slider .slider_section:last').insertBefore('#slider .slider_section:first');
+slider.css('margin-left', '-100%');
+
 function jumpIn() {
     popUp.animate({
         top: '90%',
         opacity: '1'
-    }, 700, function () {
-		buttonNext.on('click', completeAnimationNext);
-		buttonPrev.on('click', completeAnimationPrev);
+    }, 500, function (){
+		disabledButtonNext = false;
+		disabledButtonPrev = false;
 	});
 }
 
 function fadeOut() {
     popUp.animate({
         opacity: '0'
-    }, 700);
+    }, 500);
 	setTimeout(
-  function() {
+		function() {
         popUp.css('top', '100%');
-  }, 700);		
+  }, 500);		
 }
 
 function moverNext() {
@@ -44,9 +54,10 @@ function moverPrev() {
 	});
 }
 
-function completeAnimationNext () {
-	buttonPrev.unbind();
-	buttonNext.unbind();
+function autoPlay() {
+	interval = setInterval(function(){
+	disabledButtonNext = true;
+	disabledButtonPrev = true;
 	fadeOut();
 	setTimeout(
         function () {
@@ -55,13 +66,28 @@ function completeAnimationNext () {
     setTimeout(
         function () {
             jumpIn();
-        }, 1400);
-	clearInterval(interval);
+        }, 1400)
+	}, 3000);
 }
 
-function completeAnimationPrev () {
-	buttonPrev.unbind();
-	buttonNext.unbind();
+buttonNext.on('click', function () {
+	if(disabledButtonNext == true) return;
+	fadeOut();
+	setTimeout(
+        function () {
+            moverNext();
+        }, 500);
+    setTimeout(
+        function () {
+            jumpIn();
+        }, 1200);
+	clearInterval(interval);
+	autoPlay();
+	disabledButtonNext = true;
+	disabledButtonPrev = true;
+});
+buttonPrev.on('click', function () {
+	if(disabledButtonPrev == true) return;
 	fadeOut();
 	setTimeout(
         function () {
@@ -72,14 +98,9 @@ function completeAnimationPrev () {
             jumpIn();
         }, 1400);
 	clearInterval(interval);
-}
+	autoPlay();
+	disabledButtonNext = true;
+	disabledButtonPrev = true;
+});
 
-
-setTimeout(
-  function() {
-        jumpIn();
-  }, 2000);
-$('#slider .slider_section:last').insertBefore('#slider .slider_section:first');
-slider.css('margin-left', '-100%');
-
-setInterval(function () {buttonNext.trigger("click")}, 3000);
+autoPlay();
