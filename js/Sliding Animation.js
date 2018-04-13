@@ -56,18 +56,10 @@ function moverPrev() {
 
 function autoPlay() {
 	interval = setInterval(function(){
+	buttonNext.trigger("click");
 	disabledButtonNext = true;
 	disabledButtonPrev = true;
-	fadeOut();
-	setTimeout(
-        function () {
-            moverNext();
-        }, 700);
-    setTimeout(
-        function () {
-            jumpIn();
-        }, 1400)
-	}, 3000);
+	}, 4000);
 }
 
 buttonNext.on('click', function () {
