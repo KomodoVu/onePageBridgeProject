@@ -7,15 +7,15 @@
 .slider {
     display: flex;
     width: 300vw;
-    height: 900px;
+    height: 110vh;
     position: absolute;
     bottom: 50%;
 }
 .slider_section {
     width: cal(100vw / 3);
-    height: 900px;
+    height: 110vh;
 }
 .slider_img {
     width: 100vw;
-    height: 900px;
+    height: 110vh;
 }

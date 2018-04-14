@@ -17,7 +17,7 @@ header {
 	z-index: 1;
 }
 .line_left {
-    border-top: 3px solid white;
+    border-top: 1px solid white;
     height: 8vh;
     width: 30vw;
     position: absolute;
@@ -25,7 +25,7 @@ header {
     top: 6vh;
 }
 .line_right {
-    border-top: 3px solid white;
+    border-top: 1px solid white;
     height: 8vh;
     width: 30vw;
     position: absolute;
