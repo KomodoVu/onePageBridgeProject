@@ -1,0 +1,32 @@
+.sticky_navigation_bar_wrapper{
+	position: fixed;
+	width: 100vw;
+	height: 6.3vh;
+	background-color: white;
+	z-index: 2;
+	display: none;
+}
+.sticky_navigation_bar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.sticky_navigation_bar > li {
+	position: relative;
+	left: 25vw;
+    float: left;
+}
+
+.sticky_navigation_bar >li a {
+    display: list-item;
+    padding: 2vh 2vw ;
+    text-decoration: none;
+	cursor: pointer;
+	font-size: 1vw;
+	color: black;
+}
+
+.sticky_navigation_bar > li a:hover {
+    opacity: 0.5;
+}

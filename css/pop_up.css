@@ -1,0 +1,64 @@
+.pop_up_big{
+    font-family: 'Open Sans';
+    letter-spacing: 10px;
+    width: 60vw;
+    height: 50vh;
+    position: relative;
+    top: 100%;
+    left: 19vw;
+    font-weight: bold;
+    font-size: 7vw;
+    text-align: center;
+    color: white;
+	z-index: 40 !important;
+    opacity: 0;
+}
+.pop_up_small{
+    font-family: none;
+    width: 25vw;
+    height: 5vh;
+    letter-spacing: 1px;
+    font-size: 2vw;  
+    font-size: 2vw;  
+    font-weight: 1;
+    position: absolute;
+    top: 30vh;
+    left: 19vw;
+}
+.pop_up_button_left, .pop_up_button_right{
+    font-family: none;
+    letter-spacing: 1px;
+    font-weight: 1;
+    font-size: 1vw;
+    border-radius: 10%;
+    padding: 1vh 2vw;
+	top: 38vh;
+}
+.pop_up_button_right{
+    border: 3px solid #EA4730;
+    position: absolute;
+    left: 33vw;
+    background-color: #EA4730;
+}
+.pop_up_button_right:hover{
+    background-color: white;
+    color: #EA4730;
+    border-color: white;
+}
+.pop_up_button_left{
+    border: 3px solid white;
+    position: absolute;
+    left: 18vw;
+}
+.pop_up_button_left:hover{
+    background-color: white;
+    color: red;
+}
+.line_pop_up{
+    width: 5vw;
+    height: 2px;
+    background: white;
+    position: absolute;
+    bottom: 12vh;
+    left: 9vw;
+}

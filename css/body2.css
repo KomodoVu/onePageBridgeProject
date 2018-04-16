@@ -1,0 +1,24 @@
+.body2{
+	width: 100vw;
+	height: 100vh;
+	background-color: #F2EDE3;
+	position: relative;
+}
+.pic1_wrapper{
+	width: 35vw;
+	height: 55vh;
+	position: absolute;
+	top: 40vh;
+	left: 14vw;
+}
+.pic1{
+	width: 35vw;
+	height: 55vh;
+}
+.what_we_do_wrapper{
+	width: 35vw;
+	height: 40vh;
+	position: absolute;
+	top: 45vh;
+	left: 55vw;
+}

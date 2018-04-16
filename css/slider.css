@@ -1,0 +1,21 @@
+#container_slider {
+    width: 100vw;
+    height: 100vh;
+	position: relative;
+    overflow: hidden;
+}
+.slider {
+    display: flex;
+    width: 300vw;
+    height: 100vh;
+    position: absolute;
+    bottom: 50%;
+}
+.slider_section {
+    width: cal(100vw / 3);
+    height: 100vh;
+}
+.slider_img {
+    width: 100vw;
+    height: 100vh;
+}

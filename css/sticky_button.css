@@ -1,0 +1,17 @@
+.sticky_button_up {
+	width: 3vw;
+	height: 6vh;
+	position: fixed;
+	right: 3vw;
+	bottom: 4vh;
+	border-radius: 50%;
+	border: 2px solid lightgray;
+	z-index: 1;	
+	text-align: center;
+	line-height: 6vh;
+	color: gray;
+	font-size: 1.5vw;
+}
+.sticky_button_up:hover {
+	background-color: lightgray;
+}
