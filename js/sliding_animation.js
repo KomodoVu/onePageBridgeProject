@@ -18,7 +18,7 @@ slider.css('margin-left', '-100%');
 
 function jumpIn() {
     popUp.animate({
-        top: '90%',
+        top: '80%',
         opacity: '1'
     }, 500, function (){
 		disabledButtonNext = false;
@@ -32,7 +32,7 @@ function fadeOut() {
     }, 500);
 	setTimeout(
 		function() {
-        popUp.css('top', '100%');
+        popUp.css('top', '90%');
   }, 500);		
 }
 

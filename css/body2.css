@@ -9,7 +9,8 @@
 	height: 55vh;
 	position: absolute;
 	top: 40vh;
-	left: 14vw;
+	left: 5vw;
+	opacity: 0;
 }
 .pic1{
 	width: 35vw;
@@ -20,5 +21,6 @@
 	height: 40vh;
 	position: absolute;
 	top: 45vh;
-	left: 55vw;
+	right: 4vw;
+	opacity: 0;
 }

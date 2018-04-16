@@ -1,0 +1,136 @@
+.body3 {
+	width: 100vw;
+	height: 215vh;
+	border-top: 8px solid #EA4730;
+	position: absolute;
+	background-color: white;
+	top: 380vh;
+}
+.gallery_pic1_wrapper, .gallery_pic2_wrapper, .gallery_pic3_wrapper, .gallery_pic4_wrapper, .gallery_pic5_wrapper, .gallery_pic6_wrapper{
+	width: 35vw;
+	height: 50vh;
+	position: absolute;
+	overflow: hidden;
+}
+.gallery_pic1, .gallery_pic2, .gallery_pic3, .gallery_pic4, .gallery_pic5, .gallery_pic6{
+	width: 35vw;
+	height: 50vh;
+	position: absolute;
+}
+
+.gallery_pic1_wrapper{
+	top: 40vh;
+	left: 14vw;
+}
+.gallery_pic2_wrapper{
+	top: 40vh;
+	left: 52vw;
+}
+.gallery_pic3_wrapper{
+	top: 95vh;
+	left: 14vw;
+}
+.gallery_pic4_wrapper{
+	top: 95vh;
+	left: 52vw;
+}
+.gallery_pic5_wrapper{
+	top: 150vh;
+	left: 14vw;
+}
+.gallery_pic6_wrapper{
+	top: 150vh;
+	left: 52vw;
+}
+.gallery_pic1_overlay, .gallery_pic2_overlay, .gallery_pic3_overlay, .gallery_pic4_overlay, .gallery_pic5_overlay, .gallery_pic6_overlay {
+	width: 35vw;
+	height: 50vh;
+	position: absolute;
+	background-color: #EE7C6F;
+	opacity: 0.7;
+	display: none;
+}
+.gallery_pic1_overlay{
+	top: 40vh;
+	left: 14vw;
+}
+.gallery_pic2_overlay {
+	top: 40vh;
+	left: 52vw;
+}
+.gallery_pic3_overlay{
+	top: 95vh;
+	left: 14vw;
+}
+.gallery_pic4_overlay {
+	top: 95vh;
+	left: 52vw;
+}
+.gallery_pic5_overlay{
+	top: 150vh;
+	left: 14vw;
+}
+.gallery_pic6_overlay {
+	top: 150vh;
+	left: 52vw;
+}
+.gallery_text1_wrapper, .gallery_text2_wrapper, .gallery_text3_wrapper, .gallery_text4_wrapper, .gallery_text5_wrapper, .gallery_text6_wrapper{	
+	text-align: center;
+	width: 35vw;
+	height: 50vh;
+	position: absolute;
+	color: white;
+	display: none;
+}
+.gallery_text1_wrapper > h2, .gallery_text2_wrapper > h2, .gallery_text3_wrapper > h2, .gallery_text4_wrapper > h2, .gallery_text5_wrapper > h2, .gallery_text6_wrapper > h2{
+	font-family: 'Passageway';
+	font-size: 2vw;
+	letter-spacing: 1px;
+	transform: translateY(15vh);
+}
+.gallery_text1_wrapper > p, .gallery_text2_wrapper > p, .gallery_text3_wrapper > p, .gallery_text4_wrapper > p, .gallery_text5_wrapper > p, .gallery_text6_wrapper > p{	
+	font-size: 0.9vw;
+	letter-spacing: 1px;
+	transform: translateY(15vh);
+}
+.gallery_text1_wrapper{
+	top: 40vh;
+	left: 14vw;
+}
+.gallery_text2_wrapper {
+	top: 40vh;
+	left: 52vw;
+}
+.gallery_text3_wrapper{
+	top: 95vh;
+	left: 14vw;
+}
+.gallery_text4_wrapper{
+	top: 95vh;
+	left: 52vw;
+}
+.gallery_text5_wrapper{
+	top: 150vh;
+	left: 14vw;
+}
+.gallery_text6_wrapper{
+	top: 150vh;
+	left: 52vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

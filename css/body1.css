@@ -7,11 +7,14 @@
     font-weight: normal;
     font-style: normal;
 }
+::selection {
+	background: red;
+	color: white;
+}
 .body1 {
 	width: 100vw;
 	height: 110vh;
 	border-top: 8px solid #EA4730;
-	position: relative;
 	background-color: white;
 	position: relative;
 }
@@ -32,16 +35,18 @@
 	top: 2vh;
 	left: 23vw;
 }
-.part_header{
+.part_header {
 	font-family: 'Passageway';
 	font-size: 2vw;
 	letter-spacing: 2px;
 	color: #383734;
 }
+
 .part_paragraph{
 	font-size: 1.2vw;
 	color: gray;
 }
+
 .category_header{
 	font-family: 'Passageway';
 	font-size: 1.4vw;
@@ -58,12 +63,12 @@
 	left: 6vw;	
 }
 .icon{
-	height: 7vh;
-	width: 4vw;
+	height: 0.1vh;
+	width: 0.1vw;
 }
 .onion_icon{
-	height: 12vh;
-	width: 4vw;
+	height: 0vh;
+	width: 0vw;
 }
 .nutrition_wrapper{
 	width: 38vw;

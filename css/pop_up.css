@@ -4,14 +4,14 @@
     width: 60vw;
     height: 50vh;
     position: relative;
-    top: 100%;
+    top: 90%;
     left: 19vw;
     font-weight: bold;
     font-size: 7vw;
     text-align: center;
     color: white;
-	z-index: 40 !important;
     opacity: 0;
+	user-select: none;
 }
 .pop_up_small{
     font-family: none;
