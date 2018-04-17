@@ -1,5 +1,6 @@
 /*jslint browser: true*/
 /*global $*/
+
 var pic1Wrapper = $('.gallery_pic1_wrapper');
 var pic1 = $('.gallery_pic1');
 var pic1Overlay = $('.gallery_pic1_overlay');
@@ -155,5 +156,3 @@ pic6Wrapper.hover(function(){
 	}, function(){
 	pic6Text.css('display', 'none');
 });
-
-

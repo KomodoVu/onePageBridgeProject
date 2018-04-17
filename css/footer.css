@@ -1,0 +1,25 @@
+.footer{
+	width: 100vw;
+	height: 60vh;
+	position: relative;
+	top: 125vh;
+}
+.column1, .column2, .column3{
+	width: 22vw;
+	height: 35vh;
+	background-color: white;
+	position: absolute;
+}
+.column1{
+	top: 10vh;
+	left: 12vw;
+}
+.column2{
+	top: 10vh;
+	left: 38.5vw;
+}
+
+.column3{
+	top: 10vh;
+	left: 65vw;
+}

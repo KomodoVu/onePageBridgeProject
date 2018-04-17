@@ -117,7 +117,24 @@
 	top: 150vh;
 	left: 52vw;
 }
-
+.gallery_button{
+	text-align: center;
+	line-height: 5vh;
+	font-size: 1.2vw;
+	width: 6vw;
+	height: 5vh;
+	border-radius: 10%;
+	background-color: white;
+	color: red;
+	position: relative;
+	top: 20vh;
+	left: 14.7vw;
+	cursor: pointer;
+}
+.gallery_button:hover{
+	background-color: black;
+	color: white;
+}
 
 
 

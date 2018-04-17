@@ -1,0 +1,25 @@
+.body4 {
+	width: 100vw;
+	height: 50vh;
+	background-color: #F2EDE3;
+	position: relative;
+	top: 125vh;
+	border-bottom: 8px solid #EA4730;
+}
+.fading_text1_wrapper, .fading_text2_wrapper{
+	width: 70vw;
+	height: 15vh;
+	position: absolute;
+	top: 25vh;
+	left: 15vw;
+	text-align: center;
+}
+.fading_text2_wrapper{
+	display: none;
+}
+.fading_text1_wrapper > h3, .fading_text2_wrapper > h3{
+	font-family: 'Pacifico';
+	font-size: 2vw;
+	color: #EA4730;
+	font-weight: lighter;
+}

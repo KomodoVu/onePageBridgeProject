@@ -1,5 +1,5 @@
 /*jslint browser: true*/
-/*global $, window*/
+/*global $, window, setTimeout, setInterval*/
 
 var stickyNavigationBar = $('#sticky_navigation_bar_wrapper');
 var sliderContainer = $('#container_slider');
@@ -13,6 +13,8 @@ var buttonNext = $('.button_next');
 var buttonPrev = $('.button_prev');
 var parallaxPicWrapper = $('.parallax_pic_wrapper');
 var stickyButtonUp = $('.sticky_button_up');
+var fadingText1Wrapper = $('.fading_text1_wrapper');
+var fadingText2Wrapper = $('.fading_text2_wrapper');
 
 $(window).scroll(function() {      
 	stickyAnimation();
@@ -30,7 +32,7 @@ function stickyAnimation(){
 	var srcollValue = $(window).scrollTop();
     if (srcollValue > containerHeight) {
 		stickyNavigationBar.slideDown("fast");
-		stickyButtonUp.fadeIn("fats");
+		stickyButtonUp.fadeIn("fast");
 		icon.animate({
 			height: "7vh",
 			width: "4vw"
@@ -89,3 +91,14 @@ function scrollUp() {
 		scrollTop: 0
 	}, 1000);
 }
+
+setInterval(function(){
+	setTimeout(function(){
+		fadingText1Wrapper.fadeOut("slow");
+		fadingText2Wrapper.fadeIn("slow");
+	}, 2500);
+		setTimeout(function(){
+		fadingText2Wrapper.fadeOut("slow");
+		fadingText1Wrapper.fadeIn("slow");
+	}, 5000);
+}, 5000);

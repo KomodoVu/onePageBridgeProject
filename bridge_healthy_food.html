@@ -11,9 +11,12 @@
     <link rel="stylesheet" href="css/body1.css">
     <link rel="stylesheet" href="css/body2.css">
     <link rel="stylesheet" href="css/body3.css">
+    <link rel="stylesheet" href="css/body4.css">
+    <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/parallax_pic.css">
     <link rel="stylesheet" href="css/sticky_navigation_bar.css">
     <link rel="stylesheet" href="css/sticky_button.css">
+    <link rel="stylesheet" href="css/sticky_slideshow.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
     <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet'>
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans" />
@@ -170,7 +173,9 @@
     	<div class="gallery_pic1_overlay"></div>
     	<div class="gallery_text1_wrapper">
     		<h2>STOCKHOLM FASHION</h2>
+    		<br>
     		<p>Art, Photography</p>
+    		<div id="zoom1" class="gallery_button">zoom</div>
     	</div>
     	 <div class="gallery_pic2_wrapper"><img src="image/gallery_pic2.jpg" class="gallery_pic2"></div>
     	<div class="gallery_pic2_overlay"></div>
@@ -178,6 +183,7 @@
     		<h2>VINTAGE VINYL HOUSE</h2>
     		<br>
     		<p>Art</p>
+    		<div id="zoom2" class="gallery_button">zoom</div>
     	</div>
     	<div class="gallery_pic3_wrapper"><img src="image/gallery_pic3.jpg" class="gallery_pic3"></div>
     	<div class="gallery_pic3_overlay"></div>
@@ -185,6 +191,7 @@
     		<h2>FAST VECTOR MOBILE</h2>
     		<br>
     		<p>Art, Business</p>
+    		<div id="zoom3" class="gallery_button">zoom</div>
     	</div>
     	<div class="gallery_pic4_wrapper"><img src="image/gallery_pic4.jpg" class="gallery_pic4"></div>
     	<div class="gallery_pic4_overlay"></div>
@@ -192,6 +199,7 @@
     		<h2>67B CONSTRUCTION STUDIO</h2>
     		<br>
     		<p>Business</p>
+    		<div id="zoom4" class="gallery_button">zoom</div>
     	</div>
     	<div class="gallery_pic5_wrapper"><img src="image/gallery_pic5.jpg" class="gallery_pic5"></div>
     	<div class="gallery_pic5_overlay"></div>
@@ -199,6 +207,7 @@
     		<h2>SUPERDOLLZ SHOWROOM</h2>
     		<br>
     		<p>Business</p>
+    		<div id="zoom5" class="gallery_button">zoom</div>
     	</div>
      	<div class="gallery_pic6_wrapper"><img src="image/gallery_pic6.jpg" class="gallery_pic6"></div>
     	<div class="gallery_pic6_overlay"></div>
@@ -206,14 +215,107 @@
     		<h2>MOTHER VOLCANO ARTWORK</h2>
     		<br>
     		<p>Art</p>
+    		<div id="zoom6" class="gallery_button">zoom</div>
+    	</div>
+    </div>
+    <div class="body4">
+    	<div class="part_content">
+			<h1 class="part_header">CLIENTS SAY</h1>
+   			<hr class="part_line">
+    	</div>
+    	<div class="fading_text1_wrapper">
+    		<p class="part_paragraph">Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, enean sollicitudin, lorem quis bibendum auctor, nisinec sagittis.</p>
+    		<br>
+    		<h3>Marianne Chu</h3>
+    	</div>
+    	<div class="fading_text2_wrapper">
+    		<p class="part_paragraph">Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+    		<br>
+    		<h3>Tom Smith</h3>
+    	</div>
+    </div>
+    <div class="footer" style="background-image: url(image/footer_pic.jpg)">
+    	<div class="column1">
+    		<h2>Bridge</h2>
+    		<br>
+    		<p>This is Photoshop's version of Loremoin gravida nibh vsemotoson oemoin gravida nibh vsem nibh id eliotoson oemoin gravida nibh</p>
+    		<i class="fab fa-facebook-f"></i>
+    		<i class="fab fa-twitter"></i>
+    		<i class="fab fa-google-plus-g"></i>
+    		<i class="fab fa-linkedin-in"></i>
+    	</div>
+    	<div class="column2">
+    		<h2>INFORMATION</h2>
+    		<br>
+    		<p> - Lorem ipsum dolor sit amet consectetur.
+    			<br>
+				- Sit amet consectetur dolor.
+				<br>
+				- Dolor sit amet consectetur dolor.
+				<br>
+				- Claritas est etiam processus dynamicus.
+				<br>
+				- Sit amet consectetur dolor.
+				<br>
+				- Dolor sit amet consectetur dolor.
+				<br>
+				- Mirum est notare quam littera gothica.</p>
+    	</div>
+    	<div class="column3">
+    		<h2>SUBSCRIBE TO OUR NEWSLETTER</h2>
     	</div>
     </div>
 	<div class="sticky_button_up"><i class="fas fa-arrow-up"></i></div>
-    
+   	<div class="sticky_slideshow_overlay"></div>
+  	<div class="slideshow_wrapper">
+   		<img src="image/gallery_pic1.jpg" class="slideshow_pic">
+   		<div class="button_prev_tiny"><i class="fas fa-angle-left"></i></div>
+   		<div class="button_next_tiny"><i class="fas fa-angle-right"></i></div>
+   		<div class="what_slides">1/6</div>
+		<div class="button_exit"><i class="fas fa-times"></i></div>
+   	</div>
+   	<div class="slideshow_wrapper">
+   		<img src="image/gallery_pic2.jpg" class="slideshow_pic">
+   		<div class="button_prev_tiny"><i class="fas fa-angle-left"></i></div>
+   		<div class="button_next_tiny"><i class="fas fa-angle-right"></i></div>
+   		<div class="what_slides">2/6</div>
+		<div class="button_exit"><i class="fas fa-times"></i></div>   		
+   	</div>
+   	<div class="slideshow_wrapper">
+   		<img src="image/gallery_pic3.jpg" class="slideshow_pic">
+   		<div class="button_prev_tiny"><i class="fas fa-angle-left"></i></div>
+   		<div class="button_next_tiny"><i class="fas fa-angle-right"></i></div>
+   		<div class="what_slides">3/6</div>
+		<div class="button_exit"><i class="fas fa-times"></i></div>
+   	</div>
+   	<div class="slideshow_wrapper">
+   		<img src="image/gallery_pic4.jpg" class="slideshow_pic">
+   		<div class="button_prev_tiny"><i class="fas fa-angle-left"></i></div>
+   		<div class="button_next_tiny"><i class="fas fa-angle-right"></i></div>
+   		<div class="what_slides">4/6</div>
+		<div class="button_exit"><i class="fas fa-times"></i></div>
+   	</div>
+   	<div class="slideshow_wrapper">
+   		<img src="image/gallery_pic5.jpg" class="slideshow_pic">
+   		<div class="button_prev_tiny"><i class="fas fa-angle-left"></i></div>
+   		<div class="button_next_tiny"><i class="fas fa-angle-right"></i></div>
+   		<div class="what_slides">5/6</div>
+		<div class="button_exit"><i class="fas fa-times"></i></div>
+   	</div>
+   	<div class="slideshow_wrapper">
+   		<img src="image/gallery_pic6.jpg" class="slideshow_pic">
+   		<div class="button_prev_tiny"><i class="fas fa-angle-left"></i></div>
+   		<div class="button_next_tiny"><i class="fas fa-angle-right"></i></div>
+   		<div class="what_slides">6/6</div>
+   		<div class="button_exit"><i class="fas fa-times"></i></div>
+   	</div>
+   	<div class="button_prev_small"><i class="fas fa-angle-left"></i></div>
+    <div class="button_next_small"><i class="fas fa-angle-right"></i></div>
 	<script src='https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
     <script  src="js/sliding_animation.js"></script>
 	<script  src="js/scrolling_animation.js"></script>
    	<script  src="js/gallery_hover_animation.js"></script>
+   	<script  src="js/slideshow_fade_animation.js"></script>
     
 </body>
 

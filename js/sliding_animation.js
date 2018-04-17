@@ -56,9 +56,9 @@ function moverPrev() {
 
 function autoPlay() {
 	interval = setInterval(function(){
-	buttonNext.trigger("click");
-	disabledButtonNext = true;
-	disabledButtonPrev = true;
+		buttonNext.trigger("click");
+		disabledButtonNext = true;
+		disabledButtonPrev = true;
 	}, 4000);
 }
 
