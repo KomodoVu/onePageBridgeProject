@@ -7,19 +7,78 @@
 .column1, .column2, .column3{
 	width: 22vw;
 	height: 35vh;
-	background-color: white;
+	color: white;
 	position: absolute;
+	line-height: 3.7vh;
 }
 .column1{
 	top: 10vh;
 	left: 12vw;
 }
+.column1 > h2{
+	font-family: 'Pacifico';
+	font-weight: lighter;
+	font-size: 2vw;
+}
 .column2{
 	top: 10vh;
 	left: 38.5vw;
 }
-
+.column2 > h2{
+	font-family: 'Passageway';
+	font-size: 1.3vw;
+}
 .column3{
 	top: 10vh;
 	left: 65vw;
+}
+.column3 > h2{
+	font-family: 'Passageway';
+	font-size: 1.3vw;
+}
+.footer_paragraph{
+	font-size: 1.2vw;
+}
+.icon_holder{
+	letter-spacing: 0.6vw;
+	color: darkgray;
+}
+.icon_holder > a:hover{
+	color: red !important;
+	cursor: pointer;
+}
+.icon_holder > a:visited {
+    color: darkgray;
+}
+.icon_holder > a:link {
+    color: darkgray;
+}
+.input{
+	border: 1px solid black;
+	background-color: black;
+	color: white;
+	width: 20vw;
+	height: 5vh;
+	outline: none;
+}
+::placeholder{
+	color: white;
+}
+.summit_button{
+	width: 8vw;
+	height: 5vh;
+	border: 3px solid #EA4730;
+    position: relative;
+    left: 12vw;
+    background-color: #EA4730;
+	color: white;
+	font-size: 0.8vw;
+	font-family: none;
+	border-radius: 10%;
+	cursor: pointer;
+}
+.summit_button:hover{
+	background-color: white;
+	border: 3px solid white;
+	color: #EA4730;
 }
