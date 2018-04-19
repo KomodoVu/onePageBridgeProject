@@ -246,10 +246,10 @@
     		<p class="footer_paragraph">This is Photoshop's version of Loremoin gravida nibh vsemotoson oemoin gravida nibh vsem nibh id eliotoson oemoin gravida nibh</p>
     		<br>
     		<p class="icon_holder">
-    			<a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
-    			<a href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
-				<a href="https://plus.google.com/"><i class="fab fa-google-plus-g"></i></a>
-    			<a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
+    			<a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+    			<a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+				<a href="https://plus.google.com/" target="_blank"><i class="fab fa-google-plus-g"></i></a>
+    			<a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
     		</p>
     	</div>
     	<div class="column2">
@@ -272,14 +272,23 @@
     	<div class="column3">
     		<h2>SUBSCRIBE TO OUR NEWSLETTER</h2>
     		<br>
-    		<form action="">
-    			<input class="input" name="name" type="text" placeholder="NAME*">
+    		<form action="" name="subscribe">
+    			<input id="input_name" class="input" name="name" autocomplete="off" type="text" placeholder="NAME*">
     			<br><br>
-    			<input class="input" email="email" type="text" placeholder="EMAIL*">
+    			<input id="input_email" class="input" name="email" autocomplete="off" type="text" placeholder="EMAIL*">
     			<br><br>
-    			<input class="summit_button" type="button" value="SUBCRIBE">
+    			<button class="summit_button" type="submit">SUBSCRIBE</button>
     		</form>
     	</div>
+    	<div class="error_message">
+    		<div class="error_text_holder"><p>VALIDATION ERRORS OCCURRED. PLEASE CONFIRM THE FIELDS AND SUBMIT IT AGAIN.</p></div>
+    		<div class="error_icon"><i class="fas fa-exclamation"></i></div>
+    	</div>
+    	<div class="sucess_message">
+    		<div class="sucess_text_holder"><p>YOUR MESSAGE WAS SENT SUCCESSFULLY. THANKS.</p></div>
+    		<div class="sucess_icon"><i class="far fa-thumbs-up"></i></div>
+    	</div>
+		
     </div>
 	<div class="sticky_button_up"><i class="fas fa-arrow-up"></i></div>
    	<div class="sticky_slideshow_overlay"></div>
@@ -328,10 +337,12 @@
    	<div class="button_prev_small"><i class="fas fa-angle-left"></i></div>
     <div class="button_next_small"><i class="fas fa-angle-right"></i></div>
 	<script src='https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+   	<script src="https://cdn.jsdelivr.net/jquery.validation/1.15.1/jquery.validate.min.js"></script>
     <script  src="js/sliding_animation.js"></script>
 	<script  src="js/scrolling_animation.js"></script>
    	<script  src="js/gallery_hover_animation.js"></script>
    	<script  src="js/slideshow_fade_animation.js"></script>
+   	<script  src="js/form_validation.js"></script>
     
 </body>
 

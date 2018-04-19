@@ -1,6 +1,6 @@
 .footer{
 	width: 100vw;
-	height: 60vh;
+	height: 70vh;
 	position: relative;
 	top: 125vh;
 }
@@ -68,17 +68,66 @@
 	width: 8vw;
 	height: 5vh;
 	border: 3px solid #EA4730;
-    position: relative;
-    left: 12vw;
     background-color: #EA4730;
+	position: relative;
+	left: 12vw;
 	color: white;
 	font-size: 0.8vw;
 	font-family: none;
 	border-radius: 10%;
 	cursor: pointer;
+	outline: none;
 }
 .summit_button:hover{
 	background-color: white;
 	border: 3px solid white;
 	color: #EA4730;
+}
+.error_message{
+	width: 20vw;
+	height: 15vh;
+	color: white;
+	position: absolute;
+	background-color: #F3C30B;
+	top: 52vh;
+	left: 65vw;
+	display: none;
+}
+.error_text_holder{
+	width: 17vw;
+	height: 9vh;
+	position: relative;
+	top: 4vh;
+	left: 2vw;
+	font-size: 1vw;
+}
+.error_icon{
+	width: 2vw;
+	position: absolute;
+	top: 4.3vh;
+	left: 0.9vw;
+}
+.sucess_message{
+	width: 20vw;
+	height: 10vh;
+	color: white;
+	position: absolute;
+	background-color: #0BF3A5;
+	top: 52vh;
+	left: 65vw;
+	display: none;
+}
+.sucess_text_holder{
+	width: 17vw;
+	height: 9vh;
+	position: relative;
+	top: 3vh;
+	left: 3.5vw;
+	font-size: 1vw;
+}
+.sucess_icon{
+	width: 2vw;
+	position: absolute;
+	top: 3.3vh;
+	left: 1.8vw;
 }
