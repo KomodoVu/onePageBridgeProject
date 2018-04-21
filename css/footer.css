@@ -3,6 +3,8 @@
 	height: 70vh;
 	position: relative;
 	top: 125vh;
+	background-repeat: no-repeat;
+	background-size: cover
 }
 .column1, .column2, .column3{
 	width: 22vw;
@@ -60,11 +62,15 @@
 	width: 20vw;
 	height: 5vh;
 	outline: none;
+	display: block !important;
+	font-style: normal !important;
+	opacity: 1 !important;
 }
 ::placeholder{
 	color: white;
+	font-size: 1vw;
 }
-.summit_button{
+.submit_button{
 	width: 8vw;
 	height: 5vh;
 	border: 3px solid #EA4730;
@@ -78,10 +84,26 @@
 	cursor: pointer;
 	outline: none;
 }
-.summit_button:hover{
+.submit_button:hover{
 	background-color: white;
 	border: 3px solid white;
 	color: #EA4730;
+}
+.spin_icon{
+	width: 2vw;
+	height: 4vh;
+	text-align: center;
+	line-height: 4vh;
+	position: relative;
+	left: 20.5vw;
+	bottom: 4.5vh;
+	animation: spin 1s linear infinite;	
+	display: none;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
 }
 .error_message{
 	width: 20vw;
@@ -107,7 +129,7 @@
 	top: 4.3vh;
 	left: 0.9vw;
 }
-.sucess_message{
+.success_message{
 	width: 20vw;
 	height: 10vh;
 	color: white;
@@ -130,4 +152,9 @@
 	position: absolute;
 	top: 3.3vh;
 	left: 1.8vw;
+}
+.error{
+	position: relative;
+	font-style: italic;
+	opacity: 0;
 }

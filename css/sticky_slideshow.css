@@ -15,7 +15,7 @@
 	top: 20vh;
 	left: 25vw;
 	display: none;
-	z-index: 3;
+	z-index: 4;
 }
 .slideshow_pic{
 	width: 50vw;
@@ -85,4 +85,18 @@
 	left: 2.5vw;
 	color: white;
 	text-align: center;
+	font-size: 1vw;
+}
+.loader {
+	border: 5px solid gray;
+  	border-radius: 50%;
+	border-top: 5px solid white;
+	width: 2vw;
+	height: 4vh;
+	animation: spin 1s linear infinite;
+	position: fixed;
+	top: 47vh;
+	left: 050vw;
+	display: none;
+	z-index: 3;
 }

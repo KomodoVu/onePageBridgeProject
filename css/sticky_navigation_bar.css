@@ -1,7 +1,7 @@
 .sticky_navigation_bar_wrapper{
 	position: fixed;
 	width: 100vw;
-	height: 6.3vh;
+	height: 8vh;
 	background-color: white;
 	z-index: 2;
 	display: none;
@@ -14,16 +14,17 @@
 
 .sticky_navigation_bar > li {
 	position: relative;
-	left: 25vw;
+	left: 20vw;
     float: left;
 }
 
 .sticky_navigation_bar >li a {
     display: list-item;
-    padding: 2vh 2vw ;
+    padding: 3vh 3vw ;
     text-decoration: none;
 	cursor: pointer;
 	font-size: 1vw;
+	font-weight: bold;
 	color: black;
 }
 

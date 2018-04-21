@@ -1,5 +1,5 @@
 /*jslint browser: true*/
-/*global $*/  
+/*global $, setTimeout*/ 
 
 $("form[name='subscribe']").validate({
 	onfocusout: false,
@@ -19,10 +19,25 @@ $("form[name='subscribe']").validate({
         email: "Email address seems invalid."
       },
     },
-	errorElement: "em",
-	errorContainer: $('.error_message'),
+	invalidHandler: function() {
+		$('.spin_icon').css('display', 'block');
+		$('.success_message').css('display', 'none');
+		$('.error_message').css('display', 'none');
+		$('.error').css('opacity', '0');
+			setTimeout(function(){			
+				$('.spin_icon').css('display', 'none');
+				$('.error').css('opacity', '1');
+				$('.error_message').slideDown("fast");
+			}, 2000)
+	},
     submitHandler: function() {
-		$(".sucess_message").show();
-//		form.submit();
+		$('.spin_icon').css('display', 'block');
+		$('.error_message').css('display', 'none');
+		$('.success_message').css('display', 'none');
+		setTimeout(function(){
+			$('.spin_icon').css('display', 'none');		
+			$('.success_message').slideDown("fast");
+			$("form[name='subscribe']").children('input').val('');
+		}, 2000)		
     }
 });

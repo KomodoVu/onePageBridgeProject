@@ -96,9 +96,9 @@ setInterval(function(){
 	setTimeout(function(){
 		fadingText1Wrapper.fadeOut("slow");
 		fadingText2Wrapper.fadeIn("slow");
-	}, 2500);
+	}, 8000);
 		setTimeout(function(){
 		fadingText2Wrapper.fadeOut("slow");
 		fadingText1Wrapper.fadeIn("slow");
-	}, 5000);
-}, 5000);
+	}, 16000);
+}, 16000);

@@ -9,19 +9,23 @@
     height: 160vh;
 }
 .inside_parallax {
-	width: 55vw;
+	width: 70vw;
 	height: 20vh;
 	color: white;
 	position: relative;
 	top: 125vh;
-	left: 23vw;
+	left: 15vw;
 	text-align: center
 }
 .inside_parallax > h1 {
 	font-family: 'Passageway';
 	font-size: 2.5vw;
-	letter-spacing: 5px;
+	letter-spacing: 0.7vw;
 }
 .inside_parallax > p {
 	font-size: 1.3vw;
+	width: 60vw;
+	position: relative;
+	left: 4vw;
+	top: 1vh;
 }

@@ -1,11 +1,11 @@
 .pop_up_big{
     font-family: 'Open Sans';
     letter-spacing: 10px;
-    width: 60vw;
+    width: 70vw;
     height: 50vh;
     position: relative;
-    top: 90%;
-    left: 19vw;
+    top: 100vh;
+    left: 14vw;
     font-weight: bold;
     font-size: 7vw;
     text-align: center;
@@ -23,7 +23,7 @@
     font-weight: 1;
     position: absolute;
     top: 30vh;
-    left: 19vw;
+    left: 24vw;
 }
 .pop_up_button_left, .pop_up_button_right{
     font-family: none;
@@ -32,12 +32,12 @@
     font-size: 1vw;
     border-radius: 10%;
     padding: 1vh 2vw;
-	top: 38vh;
+	top: 40vh;
 }
 .pop_up_button_right{
     border: 3px solid #EA4730;
     position: absolute;
-    left: 33vw;
+    left: 37vw;
     background-color: #EA4730;
 }
 .pop_up_button_right:hover{
@@ -48,7 +48,7 @@
 .pop_up_button_left{
     border: 3px solid white;
     position: absolute;
-    left: 18vw;
+    left: 25vw;
 }
 .pop_up_button_left:hover{
     background-color: white;

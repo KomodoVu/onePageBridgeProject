@@ -77,7 +77,7 @@ function lastToFirst() {
 
 function jumpIn() {
     popUp.animate({
-        top: '80%',
+        top: '90vh',
         opacity: '1'
     }, 500, function (){
 		disabledButtonNext = false;

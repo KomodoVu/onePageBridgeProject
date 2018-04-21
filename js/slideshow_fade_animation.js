@@ -3,6 +3,7 @@
 
 var galleryButtons = $('.gallery_button');
 var galleryOverlay = $('.sticky_slideshow_overlay');
+var loader = $('.loader');
 var slideShowWapper = $('.slideshow_wrapper');
 var buttonNextSmall = $('.button_next_small');
 var buttonPrevSmall = $('.button_prev_small');
@@ -22,37 +23,64 @@ var whatPic = 0;
 
 galleryButtons.on('click', function(){
 	galleryOverlay.css('display', 'block');
-	buttonNextSmall.fadeIn("slow");
-	buttonPrevSmall.fadeIn("slow");
+	setTimeout(function(){
+		buttonNextSmall.fadeIn("slow");
+		buttonPrevSmall.fadeIn("slow");
+	}, 1000);
+
 });
 
 zoom1.on('click', function(){
-	slideShowWapper.eq(0).fadeIn("slow");
+	loader.css('display', 'block');
+	setTimeout(function(){
+		slideShowWapper.eq(0).fadeIn("slow");
+		loader.css('display', 'none');
+	}, 1000);	
 	whatPic = 0;
 });
 
 zoom2.on('click', function(){
-	slideShowWapper.eq(1).fadeIn("slow");
+	loader.css('display', 'block');
+	setTimeout(function(){
+		slideShowWapper.eq(1).fadeIn("slow");
+		loader.css('display', 'none');
+	}, 1000);
 	whatPic = 1;
 });
 
 zoom3.on('click', function(){
-	slideShowWapper.eq(2).fadeIn("slow");
+	loader.css('display', 'block');
+	setTimeout(function(){
+		slideShowWapper.eq(2).fadeIn("slow");
+		loader.css('display', 'none');
+	}, 1000);
 	whatPic = 2;
 });
 
 zoom4.on('click', function(){
-	slideShowWapper.eq(3).fadeIn("slow");
+	loader.css('display', 'block');
+	setTimeout(function(){
+		slideShowWapper.eq(3).fadeIn("slow");
+		loader.css('display', 'none');
+	}, 1000);
 	whatPic = 3;
 });
 
 zoom5.on('click', function(){
-	slideShowWapper.eq(4).fadeIn("slow");
+	loader.css('display', 'block');
+	setTimeout(function(){
+		slideShowWapper.eq(4).fadeIn("slow");
+		loader.css('display', 'none');
+	}, 1000);
 	whatPic = 4;
 });
 
 zoom6.on('click', function(){
-	slideShowWapper.eq(5).fadeIn("slow");
+	loader.css('display', 'block');
+	setTimeout(function(){
+		slideShowWapper.eq(5).fadeIn("slow");
+		loader.css('display', 'none');
+	}, 1000);
 	whatPic = 5;
 });
 
