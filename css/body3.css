@@ -1,20 +1,20 @@
 .body3 {
 	width: 100vw;
-	height: 215vh;
+	height: 230vh;
 	border-top: 8px solid #EA4730;
-	position: absolute;
+	position: relative;
+	bottom: 70vh;
 	background-color: white;
-	top: 380vh;
 }
 .gallery_pic1_wrapper, .gallery_pic2_wrapper, .gallery_pic3_wrapper, .gallery_pic4_wrapper, .gallery_pic5_wrapper, .gallery_pic6_wrapper{
 	width: 35vw;
-	height: 50vh;
+	height: 54vh;
 	position: absolute;
 	overflow: hidden;
 }
 .gallery_pic1, .gallery_pic2, .gallery_pic3, .gallery_pic4, .gallery_pic5, .gallery_pic6{
 	width: 35vw;
-	height: 50vh;
+	height: 54vh;
 	position: absolute;
 }
 
@@ -27,24 +27,24 @@
 	left: 52vw;
 }
 .gallery_pic3_wrapper{
-	top: 95vh;
+	top: 99vh;
 	left: 14vw;
 }
 .gallery_pic4_wrapper{
-	top: 95vh;
+	top: 99vh;
 	left: 52vw;
 }
 .gallery_pic5_wrapper{
-	top: 150vh;
+	top: 158vh;
 	left: 14vw;
 }
 .gallery_pic6_wrapper{
-	top: 150vh;
+	top: 158vh;
 	left: 52vw;
 }
 .gallery_pic1_overlay, .gallery_pic2_overlay, .gallery_pic3_overlay, .gallery_pic4_overlay, .gallery_pic5_overlay, .gallery_pic6_overlay {
 	width: 35vw;
-	height: 50vh;
+	height: 54vh;
 	position: absolute;
 	background-color: #EE7C6F;
 	opacity: 0.7;
@@ -59,25 +59,25 @@
 	left: 52vw;
 }
 .gallery_pic3_overlay{
-	top: 95vh;
+	top: 99vh;
 	left: 14vw;
 }
 .gallery_pic4_overlay {
-	top: 95vh;
+	top: 99vh;
 	left: 52vw;
 }
 .gallery_pic5_overlay{
-	top: 150vh;
+	top: 158vh;
 	left: 14vw;
 }
 .gallery_pic6_overlay {
-	top: 150vh;
+	top: 158vh;
 	left: 52vw;
 }
 .gallery_text1_wrapper, .gallery_text2_wrapper, .gallery_text3_wrapper, .gallery_text4_wrapper, .gallery_text5_wrapper, .gallery_text6_wrapper{	
 	text-align: center;
 	width: 35vw;
-	height: 50vh;
+	height: 54vh;
 	position: absolute;
 	color: white;
 	display: none;
@@ -102,19 +102,19 @@
 	left: 52vw;
 }
 .gallery_text3_wrapper{
-	top: 95vh;
+	top: 99vh;
 	left: 14vw;
 }
 .gallery_text4_wrapper{
-	top: 95vh;
+	top: 99vh;
 	left: 52vw;
 }
 .gallery_text5_wrapper{
-	top: 150vh;
+	top: 158vh;
 	left: 14vw;
 }
 .gallery_text6_wrapper{
-	top: 150vh;
+	top: 158vh;
 	left: 52vw;
 }
 .gallery_button{

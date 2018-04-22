@@ -10,18 +10,18 @@
 }
 .slideshow_wrapper{
 	width: 50vw;
-	height: 67vh;
+	height: 70vh;
 	position: fixed;
-	top: 20vh;
+	top: 15vh;
 	left: 25vw;
 	display: none;
 	z-index: 4;
 }
 .slideshow_pic{
 	width: 50vw;
-	height: 60vh;
+	height: 70vh;
 	position: fixed;
-	top: 20vh;
+	top: 15vh;
 	left: 25vw;
 }
 .button_next_small, .button_prev_small{
@@ -33,6 +33,7 @@
 	line-height: 58vh;
 	color: white;
 	cursor: pointer;
+	opacity: 0;
 	display: none;
 	z-index: 4;
 }
@@ -50,7 +51,7 @@
 	width: 1vw;
 	height: 2.5vh;
 	position: relative;
-	top: 62vh;
+	top: 71vh;
 	font-size: 1vw;
 	color: white;
 	cursor: pointer;
@@ -59,7 +60,7 @@
 	width: 1vw;
 	height: 2.5vh;
 	position: relative;
-	top: 59.5vh;
+	top: 68.5vh;
 	left: 6vw;
 	font-size: 1vw;
 	color: white;
@@ -69,7 +70,7 @@
 	width: 2vw;
 	height: 2.5vh;
 	position: relative;
-	top: 54.5vh;
+	top: 63.5vh;
 	left: 48.5vw;
 	font-size: 0.9vw;
 	color: white;
@@ -81,7 +82,7 @@
 	width: 2vw;
 	height: 2.5vh;
 	position: relative;
-	top: 56.8vh;
+	top: 65.5vh;
 	left: 2.5vw;
 	color: white;
 	text-align: center;

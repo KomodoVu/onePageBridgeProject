@@ -1,3 +1,7 @@
+body {
+	overflow-x: hidden;
+	height: 738vh;
+}
 #container_slider {
     width: 100vw;
     height: 100vh;
@@ -12,7 +16,7 @@
 	top: -50%;
 }
 .slider_section {
-    width: cal(100vw / 3);
+    width: 100vw;
     height: 110vh;
 }
 .slider_img {

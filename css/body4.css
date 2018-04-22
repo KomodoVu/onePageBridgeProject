@@ -3,7 +3,7 @@
 	height: 50vh;
 	background-color: #F2EDE3;
 	position: relative;
-	top: 125vh;
+	bottom: 70vh;
 	border-bottom: 8px solid #EA4730;
 }
 .fading_text1_wrapper, .fading_text2_wrapper{

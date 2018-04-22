@@ -5,17 +5,20 @@
 	z-index: -1;
 }
 .paralax_pic {
-    width: 100vw;
-    height: 160vh;
+    width: 125vw;
+    height: 170vh;
+	position: relative;
+	right: 15vw;
+	top: 10vh;
 }
 .inside_parallax {
 	width: 70vw;
 	height: 20vh;
 	color: white;
 	position: relative;
-	top: 125vh;
+	top: 135vh;
 	left: 15vw;
-	text-align: center
+	text-align: center;
 }
 .inside_parallax > h1 {
 	font-family: 'Passageway';

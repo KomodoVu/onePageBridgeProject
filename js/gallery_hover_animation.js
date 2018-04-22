@@ -5,6 +5,24 @@ var pic1Wrapper = $('.gallery_pic1_wrapper');
 var pic1 = $('.gallery_pic1');
 var pic1Overlay = $('.gallery_pic1_overlay');
 var pic1Text = $('.gallery_text1_wrapper');
+var buttonNextSmall = $('.button_next_small');
+var buttonPrevSmall = $('.button_prev_small');
+
+buttonNextSmall.hover(function(){
+	buttonNextSmall.css('opacity', '1');
+	buttonPrevSmall.css('opacity', '1');
+}, function(){
+	buttonNextSmall.css('opacity', '0');
+	buttonPrevSmall.css('opacity', '0');
+});
+
+buttonPrevSmall.hover(function(){
+	buttonNextSmall.css('opacity', '1');
+	buttonPrevSmall.css('opacity', '1');
+}, function(){
+	buttonNextSmall.css('opacity', '0');
+	buttonPrevSmall.css('opacity', '0');
+});
 
 pic1Wrapper.hover(function(){
 	pic1Text.css('display', 'block');
